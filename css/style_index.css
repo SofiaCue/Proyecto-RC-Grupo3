@@ -2,131 +2,54 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Google Sans",arial,sans-serif;
+    background-color: black;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    outline: 1px solid grey;
-}
-
-ul{
-    display: flex;
-}
-
-ul li a {
-    padding: 0 18px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-}
-
-.login {
-    padding: 16px;
-    background-color: #1a73e8;
-    color: white; 
-    border-radius: 4px;
-    margin-left: 10px;
-}
-
-.login:hover {
-    background-color: #185abc;
-    box-shadow: 0 1px 2px 0 grey;
-}
-
-.descargar{
-    color: #1a73e8;
-}
-
-.contenedor {
-    position: relative;
-    width: auto;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.main_animated {
-    width: 30%;
-    height: 20%;
-    position: absolute;
-    top: 200px;
-    margin: 20px;
-    text-align: center;
+section {
     animation-name: animacionContenedor;
-    animation-duration: 2s;
+    max-width: 110px;
+    width: 20%;
+    animation-duration: 2s;    
 }
 
-.titulo {
-    font-size: 4rem;
-    padding: 0px 0px 40px 0px;
-    letter-spacing: 1px;
-    opacity: 80%;
-
-}
-
-@keyframes  animacionContenedor {
-    from {
-        top: 170px;
-        opacity: 0;
-    }
-
-    to {
-        top: 200px;
-    }
-}
-
-
-img {
-    position: relative;
-} 
-
-#foto1 {
+#img-jeffreydhamer-inicio {
     position: absolute;
-    left:0px;
+    margin-top: 10%;
+    border-radius:0 10px 10px 0;
+    width: 20%;
+    height: 20%;
+}
+
+#img-dalianegra-inicio {
+    position: absolute;
+    margin-top: 30%;
     border-radius: 0 10px 10px 0;
-    bottom: 0;
-    width: 27%;
+    width: 20%;
+    height: 30%;
 }
 
-#foto3 {
+#img-casaterror-inicio {
     position: absolute;
-    top:82px;
-    border-radius: 0 10px 10px 0;
-    width: 18%;
-}
-
-#foto2 {
-    position: absolute;
-    right: 100px;
-    bottom: 90px;
+    left: 40%;
+    height: 20%;
     width: 15%;
+    margin-top: 0%;
     border-radius: 10px;
 }
 
-#foto4 {
+#img-señor-inicio{
     position: absolute;
-    right: 0;
+    left: 85%;
+    right: 0%;
     top: 130px;
     border-radius: 10px;
+    height: 40%;
+    width: 30%;
 }
 
-#foto5 {
+#img-manomiedo-inicio {
     position: absolute;
-    left: 40%;
-    top: 12%;
-    border-radius: 10px;
-}
-
-#foto6 {
-    position: absolute;
-    left: 40%;
-    bottom: 0%;
+    left: 50%;
+    top: 70%;
     border-radius: 10px;
 }
