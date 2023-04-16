@@ -52,7 +52,7 @@ body {
 /* Aside completo */
 
 aside {
-    width: 20%;
+    width: 24%;
     height: 120vh;
     position: absolute;
     left: 66%;
@@ -61,8 +61,8 @@ aside {
 }
 
 .carousel-item {
-    max-width:24rem;
-    height: 10rem;
+    max-width:29rem;
+    height: 14rem;
 }
 
 
@@ -84,3 +84,33 @@ aside {
 }
 
 
+/* itemsAside */
+
+.aside_columna_titulo {
+    position: absolute;
+}
+
+.Texto_Columnas_Aside {
+    color: #fff;
+    font-size: 1.7rem;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--color_aside);
+    line-height : 33px;
+}
+
+li {
+    position: relative;
+    right: 5%;
+
+}
+
+.texto_bajo_titulo {
+    position: relative;
+    color: #fff;
+    font-size: 1rem;    
+}
+
+
+:root {
+    --color_aside: #E67E22;
+}
