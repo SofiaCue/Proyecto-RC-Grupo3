@@ -1,85 +1,38 @@
-section{
-    background-color: (--color);
-    color: aliceblue;
+:root{
+    --color: #222; 
 }
-:root {
-    --color: rgb(58, 58, 58);
+*{
+    margin: 0;
+    padding: 0;
 }
-.conteiner{
+body{
+    background-color: var(--color);
+}
+.fotos{
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
 }
-/* Creando las 4 columnas */
-.columna-1{
+.fotos .galeria{
+    max-width: 850%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 1rem;
+}
+.fotos .galeria img{
+    object-fit: cover;
     width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
+    height: 100%;
+    border-radius: 10px;
 }
-.columna-1 img {
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-    height: 70%;
-    width: 30%;
+.fotos .galeria .img-a{
+    grid-column: 1/3;
 }
-.columna-1-1{
-    height: 80%;
-    width: 20%;
+.fotos .galeria .img-b{
+    grid-row: 2/4;
 }
-.columna-1-2{
-    height: 90%;
-    width: 10%;
-}
-.columna-1-3{
-    height: 80%;
-    width: 20%;
-}
-.columna-1-4{
-    height: 80%;
-    width: 30%;
-}
-
-.columna-2{
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-}
-.columna-2 img {
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-    height: 70%;
-    width: 30%;
-}
-
-.columna-3{
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-}
-.columna-3 img {
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-    height: 60%;
-    width: 40%;
-}
-
-.columna-4{
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-}
-.columna-4 img {
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 25px;
-    height: 80%;
-    width: 20%;
-}
-
-  
-#galeria img:hover {
-    transform: scale(1.05);
+.fotos .galeria .img-i{
+    grid-column: 2/4;
 }
