@@ -58,6 +58,7 @@ aside {
     left: 66%;
     top: 15%;
     background-color: black;
+
 }
 
 .carousel-item {
@@ -87,15 +88,16 @@ aside {
 /* itemsAside */
 
 .aside_columna_titulo {
-    position: absolute;
+    position: relative;
 }
 
+
 .Texto_Columnas_Aside {
+    padding: 2px;
     color: #fff;
     font-size: 1.7rem;
     font-family: 'Lato', sans-serif;
-    background-color: var(--color_aside);
-    line-height : 33px;
+    line-height : 36px;
 }
 
 li {
@@ -107,10 +109,53 @@ li {
 .texto_bajo_titulo {
     position: relative;
     color: #fff;
-    font-size: 1rem;    
+    font-size: 0.9rem;
+    border-bottom: 2px solid var(--color_aside);
+
 }
 
+.texto_bajo_titulo:hover {
+    background-color: rgba(255, 204, 0, 0.89);
+
+}
 
 :root {
-    --color_aside: #E67E22;
+    --color_aside: #fc0;
+}
+
+.sub-texto-mov {
+    position: relative;
+    top: 12px;
+}
+
+.posicion_1 {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.numero_1 {
+    position: absolute;
+    right: 12%;
+    top: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.barra_gris {
+    border-bottom: 1px solid grey;
+    width: 70%;
+    position: absolute;
+    bottom: -50px;
+    right: 17%;
+}
+
+.aside_titulo_2 {
+    padding-top: 8%;
+}
+
+.texto_bajo_titulo_2 {
+    
 }
