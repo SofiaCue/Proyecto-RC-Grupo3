@@ -269,23 +269,18 @@ footer {
     }
 }
 
+.redes_sociales {
+    margin-right: 3%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+i {
+    margin: 2px;
+}
 
 /* Segundo section de noticias */
 
