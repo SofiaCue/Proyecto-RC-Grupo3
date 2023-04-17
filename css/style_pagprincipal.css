@@ -2,6 +2,38 @@ body {
     background-color: rgb(58, 58, 58);
 }
 
+/* Header */
+
+header{
+    background-color:black;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s;
+}
+
+.navigation ul li a:hover{
+    background: #CCC;
+}
+
 /* caso somerton */
 .caso_1 {
     width: 30%;
