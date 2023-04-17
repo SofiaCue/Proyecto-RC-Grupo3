@@ -47,6 +47,7 @@ header{
     justify-content: right;
 }
 
+/* Primer section de historias */
 /* caso somerton */
 .caso_1 {
     width: 30%;
@@ -260,4 +261,10 @@ footer {
     footer {
         margin-top: 7%;
     }
+}
+
+/* Segundo section de noticias */
+
+.section-noticias{
+    background-color: #fff;
 }
