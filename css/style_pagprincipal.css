@@ -239,14 +239,20 @@ a {
 }
 
 footer {
-    height: 20vh;
+    height: 27vh;
     background-color: black;
 }
 
 .descripcion {
-
+    position: relative;
+    top: 25%;
     font-family: Arial ;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+}
+
+.copyright {
+    position: relative;
+    top: 25%;
 }
 
 .copy {
@@ -262,6 +268,24 @@ footer {
         margin-top: 7%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Segundo section de noticias */
 
