@@ -35,6 +35,11 @@ header{
     background: #CCC;
 }
 
+.ul-2{
+    display: flex;
+    justify-content: right;
+}
+
 /* caso somerton */
 .caso_1 {
     width: 30%;
