@@ -42,7 +42,10 @@ header{
 
 /* Nav */
 
-
+.container-nav-desplegable{
+    display: flex;
+    justify-content: right;
+}
 
 /* caso somerton */
 .caso_1 {
