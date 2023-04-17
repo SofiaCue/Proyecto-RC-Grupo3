@@ -128,9 +128,13 @@ li {
     top: 12px;
 }
 
-.posicion_1 {
+.posicion {
     color: #fff;
     font-size: 5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 .numero_1 {
@@ -154,8 +158,44 @@ a {
 
 .aside_titulo_2 {
     padding-top: 8%;
+    width: 80%;
 }
 
-.texto_bajo_titulo_2 {
-    
+.titulo_subrayar_hover:hover {
+    text-decoration: underline;
+}
+
+.texto_bajo_titulo_2_3 {
+    font-size: 1.2rem;
+}
+
+.texto_bajo_titulo_2_3:hover {
+    color: grey;
+}
+
+.numero_2 {
+    position: absolute;
+    right: 10%;
+    top: 89%;
+}
+
+.aside_titulo_3 {
+    position: absolute;
+    width: 100%;
+}
+
+.numero_3 {
+    position: absolute;
+    right: 12%;
+    top: 0%;
+}
+
+.li_viaje_aventura {
+    width: 80%;
+}
+
+.aside_titulo_4 {
+    position: absolute;
+    padding-top: 30%;
+    width: 80%;
 }
