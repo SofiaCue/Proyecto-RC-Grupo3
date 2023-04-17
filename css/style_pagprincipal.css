@@ -237,3 +237,23 @@ footer {
     height: 20vh;
     background-color: black;
 }
+
+.descripcion {
+
+    font-family: Arial ;
+    font-size: 1.3rem;
+}
+
+.copy {
+    color: grey;
+}
+
+@media screen and (min-width: 1080px) {
+    aside {
+        height: 120vh;
+    }
+
+    footer {
+        margin-top: 7%;
+    }
+}
