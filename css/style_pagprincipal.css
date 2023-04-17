@@ -235,14 +235,20 @@ a {
 }
 
 footer {
-    height: 20vh;
+    height: 27vh;
     background-color: black;
 }
 
 .descripcion {
-
+    position: relative;
+    top: 25%;
     font-family: Arial ;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+}
+
+.copyright {
+    position: relative;
+    top: 25%;
 }
 
 .copy {
@@ -257,4 +263,17 @@ footer {
     footer {
         margin-top: 7%;
     }
+}
+
+.redes_sociales {
+    margin-right: 3%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+i {
+    margin: 2px;
 }
