@@ -57,8 +57,12 @@ header{
     width: 100%;
     padding-top: 0px;
     clip-path: inset(58px 0px 26px 0px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 0.5s ease;
 }
-
+.caso1_foto:hover{
+    transform: scale(0.9);
+}
 .texto_caso {
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
@@ -89,10 +93,14 @@ header{
 }
 
 .caso2_foto {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
     width: 100%;
     padding-top: 10px;
+    transition: all 0.5s ease;
 }
-
+.caso2_foto:hover{
+    transform: scale(0.9);
+}
 /* Aside completo */
 
 aside {
@@ -238,6 +246,78 @@ a {
     width: 80%;
 }
 
+/* Segundo section de noticias */
+.section-noticias{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff; 
+    height: 600px;
+    justify-content: center;   
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+#noticia-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+#noticia-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.img-noticias{
+    width: 500px;
+    height: 300px;
+    float: left;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 0.5s ease;
+}
+.img-noticias:hover{
+    transform: scale(0.9);
+}
+.descripcion-noticias{
+    width: 500px;
+    height: 200px;
+}
+.subrayado-noticia{
+    color: black;
+    font-size: 1rem;
+}
+.subrayado-noticia:hover{
+    text-decoration: underline;
+}
+.hover-noticia{
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+.hover-noticia:hover{
+    color: grey;
+}
+.pintado-noticia{
+    float: left;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin: 8px;
+    border-bottom: 2px solid var(--color_aside);
+}
+.pintado-noticia:hover{
+    border-radius: 3px;
+    background-color: rgba(255, 204, 0, 0.89);
+}
+
+
+
+/*Footer*/
+
 footer {
     height: 27vh;
     background-color: black;
@@ -282,8 +362,3 @@ i {
     margin: 2px;
 }
 
-/* Segundo section de noticias */
-
-.section-noticias{
-    background-color: #fff;
-}
