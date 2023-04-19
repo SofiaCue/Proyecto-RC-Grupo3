@@ -356,7 +356,7 @@ footer {
     color: grey;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1900px) {
     aside {
         height: 114vh;
     }
@@ -392,7 +392,7 @@ i {
 }
 
 
-@media screen and (max-width: 321px) {
+@media only screen and (max-width: 321px) {
     .nav-principal {
         position: fixed;
         top: 40px;
@@ -483,5 +483,72 @@ i {
     footer {
         position: relative;
         top: 300px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    aside {
+        width: 30%;
+        height: 135%;
+     }
+    
+    .section-noticias {
+        position: relative;
+        top: 100px;
+        height: 80vh;
+    }
+
+    .descripcion-noticias {
+        height: 440px;
+    }
+
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1600px) {
+    aside {
+        width: 30%;
+        height: 135%;
+     }
+    
+    .section-noticias {
+        position: relative;
+        top: 100px;
+        height: 80vh;
+    }
+
+    .descripcion-noticias {
+        height: 440px;
+    }
+
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media only screen and (min-width:1600px) and (max-width:1900px) {
+    aside {
+        width: 28%;
+        height: 125%;
+     }
+    
+    .section-noticias {
+        position: relative;
+        top: 100px;
+        height: 90vh;
+    }
+
+    .descripcion-noticias {
+        height: 440px;
+    }
+
+    footer {
+        position: relative;
+        top: 100px;
     }
 }
