@@ -6,6 +6,22 @@ body {
 
 header{
     background-color:black;
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+
+.nav-principal {
+    position: fixed;
+    width: 100%;
+    top: 4%;
+    z-index: 10;
+
+}
+
+.row {
+    position: relative;
+    top: 70px;
 }
 
 .logo-nav-container{
@@ -14,6 +30,8 @@ header{
     align-items: center;
     margin-left: 2%;
 }
+
+
 
 .navigation ul{
     margin: 0;
@@ -347,6 +365,18 @@ footer {
     footer {
         margin-top: 7%;
     }
+    .section-noticias {
+        position: relative;
+        top: 150px;
+        height: 74vh;
+    }
+    #noticia-a {
+        height: 55vh;
+    }
+
+    #noticia-b {
+        height: 55vh; 
+    }
 }
 
 .redes_sociales {
@@ -362,17 +392,97 @@ i {
     margin: 2px;
 }
 
-@media screen and (min-width:1080px) {
-    .section-noticias {
-        position: relative;
-        top: 80px;
-        height: 74vh;
+
+@media screen and (max-width: 321px) {
+    .nav-principal {
+        position: fixed;
+        top: 40px;
+        width: 320px;
     }
-    #noticia-a {
-        height: 55vh;
+
+    .fecha {
+        font-size: 0.9rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto_caso {
+        font-size: 0.9rem;
+        width: 300px;
+    }
+
+    .caso_2 {
+        width: 320px;
+        margin: 0 !important;
+    }
+
+    .caso_1 {
+        width: 320px;
+        margin: 0 !important;
+    }
+
+    .header_media {
+        width: 320px;
+        height: 40px;
+
+    }
+
+    .header_media ul li a {
+        font-size: 0.7rem;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .inicio_media {
+        display: none !important;
+    }
+    
+    .ul-1 {
+        display: flex;
+        width: 320px;
+    }
+
+    /* section-noticias */
+
+    .section-noticias {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 120px;
+        height: 100%;
+
+        /* display: none; */
+    }
+    
+
+    .img-noticias {
+        margin: 8px;
+        width: 305px;
+        height: 200px;
+    }
+
+    .descripcion-noticias {
+        width: 320px;
+        height: 100px;
+    }
+
+    .descripcion-noticias ul li h2 a {
+        font-size: 1.0rem;
+
     }
 
     #noticia-b {
-        height: 55vh; 
+        position: relative;
+        top: 120px;
+        background-color: #fff;
+    }
+    
+    footer {
+        position: relative;
+        top: 300px;
     }
 }
