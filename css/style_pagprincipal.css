@@ -64,6 +64,22 @@ header{
     justify-content: right;
 }
 
+.titulo_nav {  
+    height: 30%;
+    width: 39%;
+}
+
+.ojo {
+    border-radius: 250px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+#ojo2 {
+    margin-left: 15px;
+    height: 20px;
+}
+
 /* Primer section de historias */
 /* caso somerton */
 .caso_1 {
