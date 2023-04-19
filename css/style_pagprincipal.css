@@ -509,7 +509,7 @@ i {
 }
 
 
-@media only screen and (min-width:1200px) and (max-width:1600px) {
+@media only screen and (min-width:1200px) and (max-width:1600px){
     aside {
         width: 30%;
         height: 135%;
@@ -518,7 +518,7 @@ i {
     .section-noticias {
         position: relative;
         top: 100px;
-        height: 80vh;
+        height: 100vh;
     }
 
     .descripcion-noticias {
@@ -527,7 +527,12 @@ i {
 
     footer {
         position: relative;
-        top: 100px;
+        top: 240px;
+    }
+
+    .nav-principal {
+        position: fixed;
+        top: 40px;
     }
 }
 
