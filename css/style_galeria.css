@@ -8,11 +8,95 @@
 body{
     background-color: var(--color);
 }
+
+/* Header */
+
+header{
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+
+.nav-principal {
+    position: fixed;
+    width: 100%;
+    top: 4%;
+    z-index: 10;
+}
+
+.row {
+    position: relative;
+    top: 70px;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s;
+}
+
+.navigation ul li a:hover{
+    background: #CCC;
+}
+
+.ul-2{
+    display: flex;
+    justify-content: right;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Nav */
+
+.container-nav-desplegable{
+    display: flex;
+    justify-content: right;
+}
+
+.titulo_nav {  
+    height: 30%;
+    width: 39%;
+}
+
+.ojo {
+    border-radius: 250px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+#ojo2 {
+    margin-left: 15px;
+    height: 20px;
+}
+
 .fotos{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .fotos .galeria{
     max-width: 850%;
@@ -56,3 +140,26 @@ body{
     grid-column: 1/3;
 }
 
+
+/*Footer*/
+
+footer {
+    height: 27vh;
+    background-color: black;
+}
+
+.descripcion {
+    position: relative;
+    top: 25%;
+    font-family: Arial ;
+    font-size: 1.7rem;
+}
+
+.copyright {
+    position: relative;
+    top: 25%;
+}
+
+.copy {
+    color: grey;
+}
