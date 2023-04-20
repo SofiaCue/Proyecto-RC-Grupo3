@@ -408,7 +408,7 @@ i {
 }
 
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 320px) {
     .nav-principal {
         position: fixed;
         top: 40px;
@@ -468,9 +468,7 @@ i {
         flex-direction: column;
         position: relative;
         top: 120px;
-        height: 100%;
-
-        /* display: none; */
+        height: 150vh;
     }
     
 
@@ -482,7 +480,7 @@ i {
 
     .descripcion-noticias {
         width: 320px;
-        height: 100px;
+        height: 300px;
     }
 
     .descripcion-noticias ul li h2 a {
@@ -490,17 +488,97 @@ i {
 
     }
 
-    #noticia-b {
+    #noticia-a {
         position: relative;
-        top: 120px;
-        background-color: #fff;
+        top: 80px;
     }
-    
+
     footer {
         position: relative;
-        top: 300px;
+        top: 120px;
+    }
+
+    .descripcion {
+        position: relative;
+        top: 25%;
+        font-size: 0.6rem;
+        width: 35%;
+    }
+
+    .copyright {
+        font-size: 0.6rem;
+        width: 35%;
+    }
+    
+    .redes_sociales a i {
+        position: relative;
+        bottom: 50px;
+        font-size: 0.8rem;
+    }
+
+    .siguenos_view {
+        position: relative;
+        bottom: 35px;
+        font-size: 0.9rem;
     }
 }
+
+/* Responsive entre 768px y 1024px */
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+    aside {
+        width: 36%;
+        position: absolute;
+        left: 71%;
+        height: 140vh;        
+    }
+
+    #noticia-a {
+        margin-left: 30px;
+    }
+
+    .img-noticias {
+        width: 305px;
+        height: 200px;
+    }
+
+    .texto_caso {
+        font-size: 1.2rem;
+        width: 210px;
+    }
+
+    .fecha {
+        font-size: 1.2rem;
+    }
+
+    .section-noticias {
+        position: relative;
+        top: 100px;
+        left: 30px;
+    }
+
+    .descripcion-noticias {
+        height: 440px;
+        font-size: 0.9rem;
+        width: 100%;
+        
+    }
+
+    .descripcion-noticias ul li h2 a {
+        font-size: 1.2rem;
+
+    }
+
+    footer {
+        position: relative;
+        top: 150px;
+        width: 107%
+    }
+
+}
+
+/* Responsive entre 1024px y 1200px */
 
 @media only screen and (min-width:1024px) and (max-width:1200px) {
     aside {
@@ -545,6 +623,7 @@ i {
         position: relative;
         top: 240px;
     }
+    
 
     .nav-principal {
         position: fixed;
