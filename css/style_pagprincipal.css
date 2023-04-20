@@ -523,6 +523,93 @@ i {
     }
 }
 
+
+@media only screen and (min-width:321px) and (max-width:767px) {
+    aside {
+        display: none;
+    }
+
+    .texto_caso {
+        font-size: 1.7rem;
+        width: 100%;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicio_media {
+        display: none !important;
+    }
+
+    .caso_2 {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .caso_1 {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .section-noticias {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 120px;
+        height: 160vh;
+    }
+    
+
+    #noticia-a {
+        margin-left: 100px !important;
+
+    }
+
+    
+    #noticia-b {
+        margin-left: 100px !important;
+
+    }
+
+    .descripcion-noticias {
+        width: 500px;
+        height: 300px;
+    }
+
+    footer {
+        position: relative;
+        top: 100px;
+    }
+
+    .descripcion {
+        position: relative;
+        top: 15%;
+        font-size: 1.4rem;
+        width: 35%;
+    }
+
+    .copyright {
+        font-size: 1rem;
+        width: 35%;
+    }
+    
+    .redes_sociales a i {
+        position: relative;
+        bottom: 50px;
+        font-size: 1.4rem;
+    }
+
+    .siguenos_view {
+        position: relative;
+        bottom: 35px;
+        font-size: 1.4rem;
+    }
+
+}
+
 /* Responsive entre 768px y 1024px */
 
 @media only screen and (min-width:768px) and (max-width:1023px){

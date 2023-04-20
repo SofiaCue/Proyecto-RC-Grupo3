@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+/* Header */
+
+header{
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+
+.nav-principal {
+    position: fixed;
+    width: 100%;
+    top: 4%;
+    z-index: 10;
+}
+
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+}
+
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s;
+}
+
+.navigation ul li a:hover{
+    background: #CCC;
+}
+
+.ul-2{
+    display: flex;
+    justify-content: right;
+}
+
+/* Nav */
+
+.container-nav-desplegable{
+    display: flex;
+    justify-content: right;
+}
+
+.titulo_nav {  
+    height: 30%;
+    width: 39%;
+}
+
+.ojo {
+    border-radius: 250px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+#ojo2 {
+    margin-left: 15px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Footer*/
+
+footer {
+    height: 27vh;
+    background-color: black;
+}
+
+.descripcion {
+    position: relative;
+    top: 25%;
+    font-family: Arial ;
+    font-size: 1.7rem;
+}
+
+.copyright {
+    position: relative;
+    top: 25%;
+}
+
+.copy {
+    color: grey;
+}
+
+.redes_sociales {
+    margin-right: 3%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+i {
+    margin: 2px;
+}
+
+
+@media screen and (min-width: 1900px) {
+   
+    footer {
+        margin-top: 7%;
+    }
+   
+}
+
+
+@media only screen and (max-width: 321px) {
+    .nav-principal {
+        position: fixed;
+        top: 40px;
+        width: 320px;
+    }
+
+    .header_media {
+        width: 320px;
+        height: 40px;
+
+    }
+
+    .header_media ul li a {
+        font-size: 0.7rem;
+    }
+
+    .inicio_media {
+        display: none !important;
+    }
+    
+    .ul-1 {
+        display: flex;
+        width: 320px;
+    }
+       
+    footer {
+        position: relative;
+        top: 300px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1600px){
+    footer {
+        position: relative;
+        top: 240px;
+    }
+
+    .nav-principal {
+        position: fixed;
+        top: 40px;
+    }
+}
+
+@media only screen and (min-width:1600px) and (max-width:1900px) { 
+
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
+
+
+.section-register{
+    padding: 100px;
+    margin: auto;
+    box-sizing: border-box;
+    width: 400px;
+    /* margin-bottom: 0px; */
+    background-color: rgb(32, 31, 31);
+    border-radius: 4px;
+    color: gray;
+    box-shadow: 7px 13px  37px #000;
+}
+
+.section-registerh4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.section-registerp{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+
+}
+.section-registera:hover{
+    text-decoration: none;
+    color:white
+}
+
+.controls{
+    width: 100%;
+    background: rgb(32, 31, 31);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+}
+.botons{
+    background-color:blue;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size:  16px;
+}
