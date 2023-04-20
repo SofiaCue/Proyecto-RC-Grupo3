@@ -30,8 +30,6 @@ header{
     margin-left: 2%;
 }
 
-
-
 .navigation ul{
     margin: 0;
     padding: 0;
@@ -347,8 +345,6 @@ a {
     background-color: rgba(255, 204, 0, 0.89);
 }
 
-
-
 /*Footer*/
 
 footer {
@@ -472,7 +468,6 @@ i {
 
         /* display: none; */
     }
-    
 
     .img-noticias {
         margin: 8px;
@@ -487,7 +482,6 @@ i {
 
     .descripcion-noticias ul li h2 a {
         font-size: 1.0rem;
-
     }
 
     #noticia-b {
