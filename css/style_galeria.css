@@ -186,6 +186,11 @@ i {
     footer {
         margin-top: 7%;
     }
+
+    header{
+        position: fixed;
+        top: 0;
+    }
    
 }
 
@@ -229,7 +234,6 @@ i {
     .container {
         margin-top: 40% !important;
     }
-
 
     .descripcion {
         position: relative;
