@@ -67,6 +67,10 @@ a{
     color: #fff;
 }
 
+a:hover {
+    color: #fff;
+}
+
 /* Nav */
 
 .container-nav-desplegable{

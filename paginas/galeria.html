@@ -16,12 +16,13 @@
         <div class="navigation logo-nav-container header_media">
             <ul class="ul-1">
                 <li><a href="../index.html" class="inicio_media">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li><a href="../paginas/pagina_principal.html">Principal</a></li>
+                <li><a href="../paginas/nosotros.html">Nosotros</a></li>
+                <li><a href="../paginas/contactos.html">Contactanos</a></li>
             </ul>
             <ul class="ul-2">
-                <li><a href="#">Suscribirse</a></li>
-                <li><a href="#">Registrar</a></li>
+                <li><a data-bs-toggle="modal"  data-bs-target="#exampleModal" href="#">Suscribete</a></li>
+                <li><a href="../paginas/registro.html">Registrar</a></li>
             </ul>
         </div>
     </header>
@@ -33,7 +34,6 @@
                 <span class="titulo">s</span>
                 <img src="../img/Gif (1).gif" alt="" class="ojo" id="ojo2">
                 <span class="titulo_nav">scuros</span>
-
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -77,6 +77,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <form class="form-inline form_busqueda d-flex">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-warning my-2 my-sm-0 mx-1" type="submit">Search</button>
+                        </form>
                     </li>
                 </ul>
             </div>
@@ -146,6 +152,25 @@
             <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
     </footer>
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Ingrese su correo electronico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Debe ser un correo valido!</div>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

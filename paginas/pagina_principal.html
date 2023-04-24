@@ -21,24 +21,7 @@
                 <li><a href="../paginas/contactos.html">Contactanos</a></li>
             </ul>
             <ul class="ul-2">
-                <li><a href="#">Suscribirse</a></li>
-                <div class="modal" tabindex="-1">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Modal title</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <p>Modal body text goes here.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <li><a data-bs-toggle="modal"  data-bs-target="#exampleModal" href="#">Suscribete</a></li>
                 <li><a href="../paginas/registro.html">Registrar</a></li>
             </ul>
         </div>
@@ -218,7 +201,8 @@
                             <h3><a href="#" class="subrayado-noticia">| NOTICIAS |</a></h3>
                         </li>
                         <li>
-                            <h2><a href="#" class="hover-noticia">Un estudio genético plantea más incógnitas sobre el misterio de un lago lleno de esqueletos </a></h2>
+                            <h2><a href="#" class="hover-noticia">Un estudio genético plantea más incógnitas sobre 
+                                el misterio de un lago lleno de esqueletos </a></h2>
                         </li>
                         <li>
                             <a href="#" class="pintado-noticia"> LAGO ROOPKUND</a>
@@ -248,7 +232,8 @@
                             <h3><a href="#" class="subrayado-noticia">| NOTICIAS |</a></h3>
                         </li>
                         <li>
-                            <h2><a href="#" class="hover-noticia">Descubren la causa de muerte de una de las más misteriosas momias </a></h2>
+                            <h2><a href="#" class="hover-noticia">Descubren la causa de muerte de una de las 
+                                más misteriosas momias </a></h2>
                         </li>
                         <li>
                             <a href="#" class="pintado-noticia"> SUIZA</a>
@@ -289,7 +274,26 @@
             <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
     </footer>
-    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Ingrese su correo electronico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Debe ser un correo valido!</div>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/39d9854f89.js" crossorigin="anonymous"></script>
 </body>
