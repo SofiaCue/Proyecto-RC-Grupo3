@@ -167,3 +167,111 @@ footer {
 .copy {
     color: grey;
 }
+
+@media screen and (min-width: 1900px) {
+   
+    footer {
+        margin-top: 7%;
+    }
+   
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px){
+    .nav-principal {
+        position: fixed;
+        top: 40px;
+        width: 120%;
+    }
+
+    .header_media {
+        width: 320px;
+        height: 40px;
+
+    }
+
+    .header_media ul li a {
+        font-size: 0.7rem;
+    }
+
+    .inicio_media {
+        display: none !important;
+    }
+    
+    .ul-1 {
+        display: flex;
+        width: 320px;
+    }
+    
+    .nuestro_e_titulo {
+
+        position: relative;
+        top: 100px !important;
+        font-size: 2.5rem !important;
+    }
+    
+    .col-xxl-4 {
+        border: 0px !important;
+    }
+
+    .container {
+        margin-top: 40% !important;
+    }
+
+
+    .descripcion {
+        position: relative;
+        top: 25%;
+        font-size: 0.6rem;
+        width: 35%;
+    }
+
+    .copyright {
+        font-size: 0.6rem;
+        width: 35%;
+    }
+    
+    .redes_sociales a i {
+        position: relative;
+        bottom: 50px;
+        font-size: 0.8rem;
+    }
+
+    .siguenos_view {
+        position: relative;
+        bottom: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1600px){
+    footer {
+        position: relative;
+        top: 240px;
+    }
+
+    header{
+        position: fixed;
+        top: 0;
+    }
+
+    .nav-principal {
+        position: fixed;
+        top: 40px;
+    }
+}
+
+@media only screen and (min-width:1600px) and (max-width:1900px) { 
+
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}
