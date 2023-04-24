@@ -131,11 +131,11 @@ i {
 }
 
 
-@media only screen and (max-width: 321px) {
+@media only screen and (min-width: 320px) and (max-width:768px) {
     .nav-principal {
         position: fixed;
         top: 40px;
-        width: 320px;
+        width: 100%;
     }
 
     .header_media {
@@ -157,10 +157,65 @@ i {
         width: 320px;
     }
  
+
+    iframe {
+        display: none;
+    }
+
+    .container-form{
+        width: 100%;
+        margin: 0px !important;
+
+    }
+
+    .container-form h2{
+        width: 100%;
+    }
+    .container-form p{
+        width: 100% !important;
+        font-size: 1.2rem !important;
+    }
+
+    .container-form form textarea{
+        max-width: 300px !important;
+        min-width: 300px !important;
+        min-height: 140px;
+        max-height: 140px;
+    }
+
+    .container-form .btn-enviar {
+        margin: 0 !important;
+    }
+
     footer {
         position: relative;
-        top: 300px;
+        top: 120px;
     }
+
+    .descripcion {
+        position: relative;
+        top: 25%;
+        font-size: 0.6rem;
+        width: 35%;
+    }
+
+    .copyright {
+        font-size: 0.6rem;
+        width: 35%;
+    }
+    
+    .redes_sociales a i {
+        position: relative;
+        bottom: 50px;
+        font-size: 0.8rem;
+    }
+
+    .siguenos_view {
+        position: relative;
+        bottom: 35px;
+        font-size: 0.9rem;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1200px) {
@@ -190,9 +245,7 @@ i {
     }
 }
 
-
 .container-form{
-    width:100%;
     max-width: 1100px;
     margin: 100px;
     display: inline-block;
@@ -200,25 +253,27 @@ i {
     grid-gap: 550px;
     margin-top: 100px;
     padding-top: 100px;
-    font-weight: 700;
-    font-size: 17px;
-    color: black;
-    margin-bottom: 0px;
-
 }
+
 .container-form h2{
     margin-bottom: 15px;
-    font-size: 35px
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
 }
+
 .container-form p{
-    font-size: 17px;
-    line-height: 1.6;
+    width: 80%;
     margin-bottom: 50px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
 }
 
 .container-form  i{
-    color: rgba(0, 0, 0, 0.50);
-    margin-right: 50px;
+    color: #fff;
+    margin-right: 10px;
     display: flex;
     margin-bottom: 10px;
     
@@ -237,9 +292,9 @@ i {
     max-width: 530px;
     min-width: 530px;
     min-height: 140px;
-    max-height: 150px;
+    max-height: 140px;
 }
-.container-form .btn-enviar{
+.btn-enviar{
     padding: 13px;
     font-size: 16px;
     border: none;
@@ -248,11 +303,11 @@ i {
     color: white;
     border-radius: 3px;
     cursor: pointer;
-    transition: all 300ms ease;
-    margin: 100px 100px 100px 525px;
-    
-    
+    transition: all 400ms ease;
+    margin: 100px 500px 100px 260px;
 }
+    
+
 .container-form .btn-enviar:hover{
     background: #1203e3;
 }

@@ -126,11 +126,11 @@ i {
 }
 
 
-@media only screen and (min-width: 320px) and (max-width:768px) {
+@media only screen and (min-width: 320px) and (max-width:768px){
     .nav-principal {
         position: fixed;
         top: 40px;
-        width: 100%;
+        width: 120%;
     }
 
     .header_media {
@@ -140,7 +140,7 @@ i {
     }
 
     .header_media ul li a {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .inicio_media {
@@ -151,18 +151,22 @@ i {
         display: flex;
         width: 320px;
     }
+    
+    .nuestro_e_titulo {
 
-    .section-register {
-        width: 320px !important;
-        padding-top: 100px !important;
-        padding-left: 40px !important ;
-        padding-right: 40px !important;
-    }
-       
-    footer {
         position: relative;
-        top: 120px;
+        top: 100px !important;
+        font-size: 2.5rem !important;
     }
+    
+    .col-xxl-4 {
+        border: 0px !important;
+    }
+
+    .container {
+        margin-top: 40% !important;
+    }
+
 
     .descripcion {
         position: relative;
@@ -187,7 +191,6 @@ i {
         bottom: 35px;
         font-size: 0.9rem;
     }
-
 }
 
 @media only screen and (min-width:1024px) and (max-width:1200px) {
@@ -218,52 +221,50 @@ i {
     }
 }
 
-
-.section-register{
-    padding: 100px;
+.nuestro-equipo{
     margin: auto;
-    box-sizing: border-box;
-    width: 400px;
-    background-color: rgb(32, 31, 31);
-    border-radius: 4px;
-    color: gray;
-    box-shadow: 7px 13px  37px #000;
+    padding-top: 7%;
 }
 
-.section-registerh4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-.section-registerp{
-    height: 40px;
+.nuestro_e_titulo {
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
     text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-
-
-}
-.section-registera:hover{
-    text-decoration: none;
-    color:white
+    color: #fff;
 }
 
-.controls{
+
+.texto_integrantes{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    text-align: justify ;
     width: 100%;
-    background: rgb(32, 31, 31);
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid;
-    color:#fff;
+    columns: black;
 }
-.botons{
-    background-color:blue;
+
+.img_perfil {
     width: 100%;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size:  16px;
+
 }
+
+.nombre_perfil {
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+}
+
+.col-xxl-4 {
+    border-right: 20px solid rgb(58, 58, 58);
+    background-color: #fff;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+

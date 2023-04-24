@@ -18,6 +18,10 @@ header{
     z-index: 10;
 }
 
+.row {
+    position: relative;
+    top: 70px;
+}
 
 .logo-nav-container{
     display: flex;
@@ -25,7 +29,6 @@ header{
     align-items: center;
     margin-left: 2%;
 }
-
 
 .navigation ul{
     margin: 0;
@@ -103,6 +106,12 @@ footer {
     color: grey;
 }
 
+@media screen and (min-width: 1900px) {
+    footer {
+        margin-top: 7%;
+    }
+}
+
 .redes_sociales {
     margin-right: 3%;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -114,15 +123,6 @@ footer {
 
 i {
     margin: 2px;
-}
-
-
-@media screen and (min-width: 1900px) {
-   
-    footer {
-        margin-top: 7%;
-    }
-   
 }
 
 
@@ -210,14 +210,12 @@ i {
     }
 }
 
-@media only screen and (min-width:1600px) and (max-width:1900px) { 
-
+@media only screen and (min-width:1600px) and (max-width:1900px) {
     footer {
         position: relative;
         top: 100px;
     }
 }
-
 
 .section-register{
     padding: 100px;
@@ -228,12 +226,13 @@ i {
     border-radius: 4px;
     color: gray;
     box-shadow: 7px 13px  37px #000;
-}
 
+}
 .section-registerh4 {
     font-size: 22px;
     margin-bottom: 20px;
     margin-top: 20px;
+
 
 }
 .section-registerp{
