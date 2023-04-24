@@ -173,6 +173,11 @@ footer {
     footer {
         margin-top: 7%;
     }
+
+    header{
+        position: fixed;
+        top: 0;
+    }
    
 }
 
@@ -216,7 +221,6 @@ footer {
     .container {
         margin-top: 40% !important;
     }
-
 
     .descripcion {
         position: relative;
